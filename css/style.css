@@ -1,0 +1,145 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 70%;
+	margin: auto;
+}
+
+#upper-right-logo {
+	display: flex;
+}
+
+#upper-right-logo img {
+	margin-right: 10px;
+	height: 50px;
+}
+
+/* font? */
+#logo-text h1 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 2rem;
+}
+
+#logo-text p {
+	font-size: .75rem;
+}
+
+#social-media ul {
+	display: flex;
+	justify-content: flex-end;
+}
+
+/* how do I add that grey slashed line border? */
+.blog {
+	display: flex;
+	margin: auto;
+	margin-top: 2rem;
+	width: 70%;
+}
+
+.blog h1 {
+	font-size: 2rem;
+}
+
+.blog p {
+	font-size: 1rem;
+}
+
+/* trying to more the print img and p to the right side -- not working */
+#print-icon {
+	align-items: end;
+}
+
+.hero-img {
+	size: 100%;
+	display: flex;
+	margin: auto;
+	width: 70%;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+}
+
+.text-box {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+}
+
+.text-box p {
+	margin-left: 13rem;
+}
+
+/* Spacing is all wrong and not sure why this img is coming up so washed out on my page? */
+.ingredients {
+	display: flex;
+	justify-content: space-around;
+	background-image: url("../img/list-bg.png");
+	background-position: center;
+	width: 60%;
+	height: 40%;
+	margin: 2rem auto 5rem auto;
+	text-align: justify;
+}
+
+/* font? */
+.ingredients ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 7px;
+	font-family: 'Times New Roman', Times, serif;
+	font-style: italic;
+	padding: 10px;
+}
+
+.author {
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
+	margin: auto;
+}
+
+.author img {
+	height: 75px;
+	width: 75px;
+	margin-right: 1rem;
+}
+
+#bio h3 {
+	font-size: 30px;
+	font-weight: bold;
+	color: grey
+}
+
+#bio p {
+	font-size: 28px;
+	color: grey
+}
+
+button {
+	height: 50px;
+	width: 200px;
+	background-color: indianred;
+	color: white;
+	font-size: 20px;
+	margin-top: 1.5rem;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	margin-top: 5rem;
+}

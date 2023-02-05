@@ -1,0 +1,1 @@
+/* create the strikethrough in the list? */
